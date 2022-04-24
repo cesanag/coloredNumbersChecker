@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.number {
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.even {
+  background-color: red;
+}
+.odd {
+  color: black;
+  background-color: yellow;
+}
+.prime {
+  color: white;
+  background-color: green;
+}
